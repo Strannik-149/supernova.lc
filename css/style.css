@@ -1,0 +1,516 @@
+header {
+	width: 100%;
+	height: 100px;
+	background-color: #292929;
+}
+
+main {
+	width: 100%;
+}
+
+footer {
+	width: 100%;
+	height: 100%;
+}
+/* Верхнее меню. Класс .main-menu */
+.main-menu {
+	width: 940px;
+	height: 100px;
+	margin: 0 auto;
+}
+/* Блок-секция с логотипом сайта. Класс .section-logo */
+.section-logo {
+	width: 160px;
+	height: 30px;
+	float: left;
+	margin: 30px 280px 0 0;
+}
+
+.section-logo__span {
+	color: rgb(221, 63, 25);
+	font-size: 30px;
+	padding: 0 1px 0 1px;
+}
+
+.section-logo__item {
+	color: rgb(255, 255, 255);
+	font-size: 21px;
+	letter-spacing: 2px;
+}
+/* Блок при наведении на логотип компании */
+.section-logo__item:hover > .section-logo__span {
+	border-bottom: 2px solid rgb(221, 63, 25);
+}
+
+/* Блок с навигацией. Класс .nav */
+.nav {
+	display: inline-block;
+}
+/* Блок с элементами навигации. Класс .nav-menu */
+.nav-menu__item {
+	height: 97px;
+	display: inline-block;
+	margin-right: 10px;
+    padding: 0 10px 0 10px;
+}
+
+.nav-menu__item_margin-right_0 {
+	margin-right: 0px;
+}
+
+.nav-menu-link {
+	text-decoration: none;
+}
+
+.nav-menu-link__item {
+	padding-top: 45px;
+	font-size: 11px;
+	font-family: "HelveticaNeue";
+	color: rgba(255, 255, 255, 0.6);
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.2;
+	text-align: left;
+}
+	/* Блок nav-menu. Свойства при наведении :hover */
+.nav-menu__item:hover {
+	background-color: #1D1D1D;
+	border-bottom: 3px solid #DD3F19;
+}
+
+.nav-menu-link__item:hover {
+	color: #FFFFFF;
+}
+/* Блок с картинкой поиска. Класс .nav-search */
+.nav-search {
+	width: 11px;
+	height: 11px;
+	margin-left: 20px;
+}
+/* Блок .nav-search. Свойства при наведении :hover */
+.nav-search:hover {
+	border-bottom: 1px solid white;
+}
+.nav-search__img:hover {
+	width: 12px;
+	height: 12px;
+	color: #FFFFFF;
+}
+
+/* БЛОК main. Обёртка .wrapper-section-up */
+.wrapper-section-up {
+	width: 100%;
+	height: 720px;	
+	background-image: url("../img/phone.png");
+	background-repeat: no-repeat;
+}
+/* Блок section-up*/
+.section-up {
+	width: 940px;
+	margin: 0 auto;
+}
+/* Заголовок блока section-up__h1*/
+.section-up__h1 {
+	padding-top: 80px;
+	font-size: 39.978px;
+	font-family: "MyriadPro";
+	color: rgb(255, 255, 255);
+	text-align: center;
+	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.section-up__item {
+	margin: 0 auto;
+	margin-top: 25px;
+	font-size: 23px;
+	font-family: "MyriadPro";
+	color: rgba(255, 255, 255, 0.6);
+	line-height: 1.565;
+	text-align: center;
+	width: 708px;
+	height: 58px;	
+}
+/* Блок section-up__nav */
+.section-up__nav {
+	border-top: 2px solid #535353;
+	margin-top: 48px;
+	display: inline-block;
+}
+
+.section-up__nav-item {
+	display: inline-block;
+	color: #FFFFFF;
+	font-size: 14px;
+  	font-family: "HelveticaNeue";
+  	color: rgb(255, 255, 255);
+  	font-weight: bold;
+  	line-height: 1.714;
+  	text-align: left;
+}
+/* Модификатор .section-up__nav-item. Отступ от рамки */
+.section-up__nav-item_margin-top {
+	margin-top: 40px;
+}
+/* Модификатор хлебных крошек */
+.section-up__nav-item_font-size {
+	display: inline-block;
+	padding-left: 5px;
+	color: #FFFFFF;
+	font-size: 12px;
+  	font-family: "HelveticaNeue";
+  	color: rgb(255, 255, 255);
+  	font-weight: bold;
+  	line-height: 1.714;
+  	text-align: left;
+}
+
+/* Блок кнопок .circle навигации*/
+.circle-nav {
+	display: inline-block;
+	float: right;
+	position: relative;
+	top: -55px;
+}
+/* Блок кнопок при наведении .circle:hover навигации*/
+.circle:hover {
+	background-color: #DD3F19;
+	border-color: #DD3F19;
+}
+
+.circle {
+	margin-right: 5px;
+	position: relative;
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	border: 2px solid #636363;
+	border-radius: 50px;
+}
+
+.circle__inner {
+	padding: 10px 8px 0 8px;
+}
+
+.circle__item {
+	border: 1px solid #636363;
+	width: 14px;
+	margin-bottom: 4px;
+}
+
+/* Блок трансформации кнопопк prev и next */
+.item_transform-rotate_145 {
+	transform: rotate(145deg);
+}
+.item_transform-rotate_-145 {
+	transform: rotate(-145deg);
+}
+/* Отступы внутри кнопки бокового меню */
+.circle__inner_padding {
+	padding: 11px 8px 0px 8px;
+}
+
+.item_margin {
+	margin-bottom: 6px;
+}
+
+/* Вариант кнопки брата */ 
+/*.circle {
+	margin-right: 10px;
+	position: relative;
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	border-radius: 50px;
+	text-align: center;
+	border: 2px solid #636363;
+}
+
+.circle__inner {
+	width: 50%;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.circle__item {
+	border: 1px solid #636363;
+	box-sizing: content-box;
+	width: 100%;
+	display: inline-block;
+    vertical-align: middle;
+}*/
+/* Блок обёртка .wrapper-content */
+.wrapper-content {
+	width: 940px;
+	margin: 0 auto;
+	margin-top: -345px;
+}
+
+/* Блок с JavaScript каруселью */
+.carousel-box {
+	width: 940px;
+	height: 536px;
+}
+
+.carousel-like {
+	height: 36px;
+}
+
+.carousel-like__img {
+	display: inline-block;
+	padding-top: 10px;
+    margin-left: 463.9px;
+    margin-right: 463.9px;
+}
+
+/* Блок контента main-content */
+.main-content {
+	width: 940px;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+/* Нижняя разделительная линия после блока content */
+.main-content__border-bottom {
+	border-bottom: 2px solid #E5E5E5;
+	margin-top: 55px;
+}
+/* Блок с левым контент */
+.content-left {
+	width: 241px;
+	margin-right: 75px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.content-left__h2 {
+	font-size: 24px;
+	font-family: "MyriadPro";
+	color: rgb(51, 51, 51);
+	line-height: 1.2;
+	text-align: left;
+}
+
+.content-left__button {
+	width: 128px;
+	height: 36px;
+	background-color: #DD3F19;
+	border: none;
+	border-radius: 4px;
+	margin-top: 21px;
+}
+/* При наведении на блок content-left__button */
+.content-left__button:hover {
+	box-shadow: 3px 3px;
+}
+
+.content-left__button-link {
+	font-size: 12px;
+	font-family: "HelveticaNeue";
+	color: rgb(255, 255, 255);
+	line-height: 1.667;
+	text-align: center;
+	text-decoration: none;
+}
+/* Блок с правым контент */
+.content-right {
+	width: 619px;
+	height: 255px;
+	display: inline-block;
+}
+
+.content-right__item {
+	font-size: 14.5px;
+	font-family: "HelveticaNeue";
+	color: rgb(102, 102, 102);
+	line-height: 1.571;
+	text-align: left;
+}
+
+.content-right__item_margin-top {
+	margin-top: 35px;
+}
+/* Блок с фотографиями работ. main-content-img */
+.main-content-img {
+	margin-top: 90px;
+}
+
+.main-content-img__h3 {
+	font-size: 48px;
+	font-family: "MyriadPro";
+	color: rgb(51, 51, 51);
+	line-height: 1.2;
+	text-align: center;
+	margin-bottom: 40px;
+}
+/* Общий блок картинок и подписей к ним */
+.content-img {
+	height: 275px;
+	margin-bottom: 90px;
+}
+/* Блок обёртка класса .content-img__screen */
+.d1 {
+	display: inline-block;
+	text-align: center;
+}
+/* Блок с картинками */
+.content-img__screen {
+	width: 300px;
+	height: 220px;
+	display: inline-block;
+	position: relative;
+}
+
+.content-img__screen_color_blue {
+	background-color: #425263;
+}
+.content-img__screen_color_grey {
+	background-color: #606268; 
+	margin: 0 16px 0 16px;
+}
+.content-img__screen_color_brown {
+	background-color: #1D0C08;
+}
+/* Блок с описанием картинок .content-img__item */
+.content-img__item {
+	padding: 10px 0 7px 0;
+	font-size: 18px;
+	font-family: "MyriadPro";
+	color: rgb(51, 51, 51);
+	line-height: 1.111;
+	text-align: center;
+}
+
+
+/* Блок Footer (подвал) */
+.footer {
+	height: 321px;
+	margin-top: 90px;
+	background-image: url("../img/phone-footer.png");
+	background-repeat: no-repeat;
+	display: block;
+}
+/* Блок с контентом footer'а */
+.footer-content {
+	width: 940px;
+	margin: 0 auto 51px;
+}
+/* Заголовок */ 
+.section-logo__item-footer_text-align_center {
+	text-align: center;
+	padding-top: 45px;
+}
+
+.footer-content__item {
+	width: 596px;
+	margin: 0 auto 30px;
+	padding-top: 21px;
+	font-size: 13px;
+	font-family: "HelveticaNeue";
+	color: rgba(255, 255, 255, 0.302);
+	line-height: 1.667;
+	text-align: center;
+}
+/* Блок sociate (иконки) */
+.footer-sociate {
+	position: relative;
+	width: 263px;
+	height: 38px;
+	border: 2px solid #686A6D;
+	border-radius: 5px;
+	margin: 0 auto;
+}
+
+.footer-sociate__box {
+	display: inline-block;
+	position: absolute;
+	top: 12px;
+    left: 20.5px;
+}
+
+.footer-sociate__link {
+	width: 13px;
+	height: 12px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-right: 12px;
+}
+/* При наведении на блок .footer-sociate__link */
+.footer-sociate__link:hover {
+	border-bottom: 1px solid #DD3F19;
+}
+
+.link-img-twitter {
+	background-image: url("../img/socialLinks/twitter.png");
+}
+.link-img-facebook {
+	background-image: url("../img/socialLinks/facebook.png");
+	background-position-y: -1px; 
+}
+.link-img-linkedin {
+	background-image: url("../img/socialLinks/linkedin.png");
+}
+.link-img-drible {
+	background-image: url("../img/socialLinks/drible.png");
+}
+.link-img-pinterest {
+	background-image: url("../img/socialLinks/pinterest.png");
+}
+.link-img-tumblr {
+	background-image: url("../img/socialLinks/tumblr.png");
+}
+.link-img-behance {
+	background-image: url("../img/socialLinks/behance.png");
+	background-position-y: 4px;
+}
+.link-img-vimeo {
+	background-image: url("../img/socialLinks/vimeo.png");
+	margin: 0;
+}
+/* Обёртка блока copyright */
+.wrapper-copyright {
+	background-image: url("../img/phone-footer-copyright.png");
+	background-repeat: no-repeat;
+}
+
+.copyright {
+	width: 940px;
+	height: 60px;
+	margin: 0 auto;
+}
+/* КЛАСС .d5 Это обёртка нашего текста*/
+.d5 {
+	display: inline-block;
+	padding: 25px 245px 0;
+}
+
+.copyright__item {
+	font-size: 14px;
+	font-family: "HelveticaNeue";
+	color: rgba(255, 255, 255, 0.302);
+	line-height: 1.667;
+	text-align: center;
+	margin-right: 25px;
+}
+/* Блок навигации нижней навигации .copyright-nav*/
+.copyright-nav {
+	display: inline-block;
+}
+/* Блок элемента ul  */
+.copyright-nav__ul {
+  	font-size: 14px;
+  	font-family: "HelveticaNeue";
+  	color: rgba(255, 255, 255, 0.6);
+  	line-height: 1.667;
+  	text-align: center;
+}
+
+.copyright-nav__ul-li {
+	display: inline-block;
+	margin-right: 25px;
+}
+
+.copyright-nav__ul-li:hover {
+	text-decoration: underline;
+}
